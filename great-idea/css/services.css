@@ -192,12 +192,30 @@ h1 {
 .content-boxes {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   flex-wrap: wrap;
 }
 
 .box {
   border: 1px solid black;
-  width: 49%;
-  background-color: azure;
+  width: 47.5%;
+  background-color: lightgrey;
+  padding: 2%;
+  margin: 20px 0;
+}
+
+.box p {
+  margin-bottom: 15px;
+}
+
+.learn-more {
+  background-color: white;
+  font-size: 10px;
+  padding: 7px 30px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 7%;
+}
+
+hr {
+  margin: 20px 0;
 }
