@@ -222,4 +222,24 @@ hr {
 
 .some-facts {
   display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.some-facts-text {
+  width: 47.5%;
+}
+
+.some-facts-text p {
+  padding-bottom: 20px;
+}
+
+.some-facts-list li {
+  list-style-type: square;
+  padding-bottom: 15px;
+  margin-left: 5%;
+}
+
+.some-facts-img {
+  width: 47.5%;
 }
