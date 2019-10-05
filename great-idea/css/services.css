@@ -150,13 +150,14 @@ h5 {
 }
 
 body {
-  margin: 0 auto;
+  margin: 20px auto;
   width: 880px;
 }
 
 .navigation {
   display: flex;
   align-items: center;
+  margin: 40px 0;
 }
 
 .nav-bar {
@@ -173,4 +174,17 @@ body {
 .nav-logo {
   width: 30%;
   text-align: right;
+}
+
+.services-img {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.services {
+  margin: 40px 0;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
