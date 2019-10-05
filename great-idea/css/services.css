@@ -188,3 +188,16 @@ body {
 h1 {
   font-size: 1.5rem;
 }
+
+.content-boxes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 1px solid black;
+  width: 49%;
+  background-color: azure;
+}
