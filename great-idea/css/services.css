@@ -243,3 +243,9 @@ hr {
 .some-facts-img {
   width: 47.5%;
 }
+
+footer {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
